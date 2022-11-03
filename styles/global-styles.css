@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppins";
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  background-color: #31383f;
+  padding: 1rem 5%;
+  color: white;
+  display: flex;
+  justify-content: right;
+}
+
+a {
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav ul li img {
+  cursor: pointer;
+}
+
+/* headers */
+h1 {
+  font-size: 36px;
+  font-family: lato;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid #31383f;
+  cursor: pointer;
+}
+
+.btn--dark {
+  background-color: #31383f;
+  color: white;
+}

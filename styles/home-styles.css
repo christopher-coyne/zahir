@@ -1,0 +1,49 @@
+#hero {
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid blue;
+}
+
+#hero div {
+  text-align: center;
+  border: 1px solid red;
+}
+
+#logo {
+  border: 1px solid blue;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: auto;
+}
+
+#body {
+  padding: 0px 10%;
+}
+
+.h1-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.h1-container hr {
+  border: 0;
+  clear: both;
+  display: block;
+  background-color: black;
+  height: 4px;
+  flex-grow: 1;
+}
+
+.project {
+  display: flex;
+}
+
+.project__img {
+  width: 500px;
+  height: 250px;
+  border: 3px solid red;
+}
